@@ -61,5 +61,6 @@
   <ItemGroup>
     <Build Include="RowCountForAllTables.sql" />
     <Build Include="RowSizeBytesPerRow.sql" />
+    <Build Include="List All Table Row Size Definitions.SQL" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿USE [qpac-crm-dev]
+﻿USE [database]
 GO
 
 declare @table nvarchar(128)
@@ -6,8 +6,8 @@ declare @idcol nvarchar(128)
 declare @sql nvarchar(max)
 
 --initialize those two values
-set @table = 'BookingLines'
-set @idcol = 'BookingId'
+set @table = 'table'
+set @idcol = 'column'
 
 set @sql = 'select ' + @idcol +' , (0'
 
